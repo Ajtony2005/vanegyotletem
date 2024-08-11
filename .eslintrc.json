@@ -1,0 +1,18 @@
+{
+  "extends": ["react-app"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "no-undef": "off",
+    "react/prop-types": ["error", { "ignore": ["scrollTargetRef"] }]
+  }
+}
